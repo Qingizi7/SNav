@@ -6,7 +6,7 @@
       <span class="anthor" @click="jumpTo(copyrightLink ?? 'https://github.com/imsyy/Snavigation')">
         {{ siteAnthor }}
       </span>
-      <span v-if="icp" class="icp" @click="jumpTo('https://icp.gov.moe/?keyword=20250629')">
+      <span v-if="icp" class="icp" @click="jumpTo('https://icp.gov.moe/?keyword=20250662')">
         {{ icp }}
       </span>
       <span class="about" @click="aboutSiteModal = true">关于</span>
