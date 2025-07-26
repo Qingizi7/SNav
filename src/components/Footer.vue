@@ -25,7 +25,7 @@
         </div>
         <div class="desc">
           <n-space class="link" justify="center">
-            <n-button strong secondary @click="jumpTo('https://github.com/imsyy/Snavigation')">
+            <n-button strong secondary @click="jumpTo('https://github.com/Qingizi7/SNav')">
               Github
             </n-button>
           </n-space>
