@@ -39,7 +39,9 @@ const setBgUrl = () => {
       break;
     case 1: {
       const isMobile = window.innerWidth < 768;
-      bgUrl.value = `https://dailybing.com/api/v1/${isMobile ? "m" : "1920"}.php`;
+      // 根据设备类型选择不同模式参数
+      const mode = isMobile ? "MBL" : "FHD";
+      bgUrl.value = `https://dailybing.com/api/v1/today/zh-cn/${mode}`;
       break;
     }
     case 2:
