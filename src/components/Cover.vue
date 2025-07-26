@@ -43,10 +43,10 @@ const setBgUrl = () => {
       break;
     }
     case 2:
-      bgUrl.value = "https://t.alcy.cc/ycy";
+      bgUrl.value = "https://tu.ltyuanfang.cn/api/fengjing.php";
       break;
     case 3:
-      bgUrl.value = "https://tu.ltyuanfang.cn/api/fengjing.php";
+      bgUrl.value = "https://t.alcy.cc/ycy";
       break;
     case 4:
       bgUrl.value = set.backgroundCustom;
